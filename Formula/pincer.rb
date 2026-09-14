@@ -1,14 +1,14 @@
 class Pincer < Formula
   desc "High-Performance Rust Download Engine"
-  homepage "https://github.com/grabbit/pincer-engine"
+  homepage "https://github.com/im-adnan/Pincer"
   
-  # REPLACE THIS URL with the actual URL from your latest release
-  url "https://github.com/grabbit/pincer-engine/releases/download/v1.0.0/pincer-macos.zip"
+  # URL for the latest macOS release
+  url "https://github.com/im-adnan/Pincer/releases/download/v1.4.7/pincer-macos.zip"
   
-  # REPLACE THIS SHA256 with the actual checksum output by your GitHub Action release
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  # SHA256 checksum of the zip file
+  sha256 "53cd4e05de7c04426d9c40782a1b6a45c3ca8b566869f88b69d14d55f2e4167e"
   
-  version "1.0.0"
+  version "1.4.7"
 
   def install
     bin.install "pincer"
